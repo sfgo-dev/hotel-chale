@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, "Trebuchet MS",sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+
+#container {
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#area-logo {
+    position: absolute;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    width: 151px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -9000px;
+}
+
+#area-menu {
+    position: absolute;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#conteudo-menu {
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#menu-locais {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+}
+
+#menu-locais .locais {
+    float: left;
+    line-height: 2.1em;
+}
+
+a.reservas {
+    background: #a29750;
+    color: #fff5b0;
+    text-transform: uppercase; 
+    text-decoration: none;
+    padding: 5px 10px;
+    float: right;
+}
+
+a:hover {
+    background: #e0b582;
+}
+
+#menu-locais .locais a {
+    text-decoration: none;
+    color: #8b8448;
+}
+
+#menu-locais .locais a:hover {
+    background: #e0b582;
+}
+
+/*-------------------------------*/
+/*barra de navegacao na vertical*/
+/*-------------------------------*/
+
+#menu {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover {
+    background: #fdf6be;
+}
+
+.depoimento {
+    border-top: 1px dotted sienna;
+    border-bottom: 1px dotted sienna;
+    padding: 10px;
+    width: 150px;
+    height: 140px;
+    float: right;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-style: italic;
+    color: saddlebrown;
+    font-size: 1.2em;
+}
+
+.nome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*-------------------------------*/
+/*area de conteudos principal,  lateral e rodape*/
+/*-------------------------------*/
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+   font-size: 1em;
+   margin-bottom: 10px; 
+}
+
+#lista-beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+#lista-beneficios li a {
+    text-decoration: none;
+
+}
+
+#lista-beneficios li a {
+    text-decoration: none;
+}
+
+#lista-beneficios li:hover {
+    background: #fdf6be;
+}
+
+
+#lista-beneficios li a p{
+    color: #000;
+    font-size: 0.8em;
+}
+
+#lista-beneficios li a h3{
+    font-size: 1.1em;
+    color: #61522b;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#lista-beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
